@@ -5,7 +5,7 @@ from pubnub.callbacks import SubscribeCallback
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 
-os.environ["pubsub_uuid"] = "feerposser-pc"
+os.environ["pubsub_uuid"] = "LAPTOP-Dalazen"
 
 pnconfig = PNConfiguration()
 pnconfig.publish_key = os.getenv("pubsub_pub")

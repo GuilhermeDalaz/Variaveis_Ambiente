@@ -9,8 +9,10 @@ def mostraVAs():
 
 mostraVAs()
 
-os.environ["nome"] = "feerposser"
+'''
+os.environ["nome"] = "Dalazen"
 
 print("--> ", os.environ.get("nome"))
 print("--> ", os.environ["nome"])
 print("--> ", os.getenv("nome"))
+'''
